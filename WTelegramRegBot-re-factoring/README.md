@@ -71,7 +71,6 @@
 
 ---
 - Папка Bot:
----
 - Program.cs - Создаёт TelegramBotClient, ProfileService, Logger, Config и BotHandler, после запускает апдейт через StartReceiving
 ---
 - BotHandler.cs:
@@ -88,26 +87,22 @@
 - UserMode.cs - состояния пользователя при регистрации профиля
 ---
 - Папка Common:
----
 - Config.cs - настройки проекта (токен бота, путь к базе, API ключи и т.д)
 ---
 - Logger.cs - используется во всех слоях для отладки и ошибок
 --- 
 - Папка Core:
----
 - Profile.cs - модель тг профиля в бд
 ---
 - IProfileService.cs - Интерфейс для ProfileService (контракты такие некие)
 ---
 - Папка Data:
----
 - BotDbContext.cs:
 - Настраивает SQLite
 - Определяет таблицы (в частности Profiles)
 - Отвечает только за хранение и получение данных
 ---
 - Папка Services:
----
 - ProfileService.cs:
 - создаёт запись в базе
 - инициализирует WTelegramClient
@@ -124,7 +119,6 @@
 
 
 - Bot Folder:
----
 - Program.cs - Creates a TelegramBotClient, ProfileService, Logger, Config and BotHandler, then launches the update via StartReceiving
 ---
 - BotHandler.cs:
@@ -141,26 +135,22 @@
 - UserMode.cs - User status during profile registration
 ---
 - Common folder:
----
 - Config.cs - project settings (bot token, database path, API keys, etc.)
 ---
 - Logger.cs - used in all layers for debugging and errors
 --- 
 - The Core folder:
----
 - Profile.cs - tg profile model in the database
 ---
 - IProfileService.cs - Interface for ProfileService (some kind of contracts)
 ---
 - Data folder:
----
 - BotDbContext.cs:
 - Configures SQLite
 - Defines tables (in particular Profiles)
 - Responsible only for storing and receiving data
 ---
 - The Services folder:
----
 - ProfileService.cs:
 - creates an entry in the database
 - initializes the WTelegramClient
