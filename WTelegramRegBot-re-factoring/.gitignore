@@ -1,0 +1,12 @@
+﻿bin/
+obj/
+*.user
+*.vs
+*.vscode/
+*.db
+sessions/
+*.session
+.env
+appsettings.json
+Thumbs.db
+.DS_Store
