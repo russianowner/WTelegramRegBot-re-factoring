@@ -1,1 +1,12 @@
 # WTelegramRegBot-re-factoring
+---
+- Бот для регистрации тг профилей через WTelegramClient
+---
+- Позволяет авторизовать аккаунты Telegram с помощью телефона, API ID и API Hash
+---
+- A bot for registering TG profiles via WTelegramClient
+---
+- Allows you to authorize Telegram accounts using your phone, API ID, and API Hash
+---
+- Simple Project - https://github.com/russianowner/WTgRegBot-simple
+---
